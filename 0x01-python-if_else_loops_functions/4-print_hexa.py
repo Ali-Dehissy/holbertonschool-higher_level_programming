@@ -1,3 +1,3 @@
 #!/usr/bin/python3
-def decToHexa(n):
-  return hex(n).replace("0x","")
+for c in range(0, 99):
+    print("{} = {}".format(c, hex(c)))
