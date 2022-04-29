@@ -1,4 +1,4 @@
 #!/bin/bash
 export PYFILE=my_main.py
-python -m my_main.pyc ./$PYFILE
+python -m my_main.pyc "$PYFILE"
 
