@@ -8,5 +8,5 @@ def new_in_list(my_list, idx, element):
     elif idx > len(my_list) - 1:
         return newlist
     else:
-        newlist[idc] = element
+        newlist[idx] = element
         return newlist
