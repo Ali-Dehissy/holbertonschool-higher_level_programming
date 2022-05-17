@@ -2,8 +2,8 @@
 """
 a class to create a square
 """
-    class Square:
+class Square:
    """
    and empty square class
    """
-        pass
+    pass
