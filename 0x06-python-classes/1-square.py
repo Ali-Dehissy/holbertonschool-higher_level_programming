@@ -2,8 +2,14 @@
 """Creating a class named Square"""
 
     class square:
-    """A square class"""
+         """A class named Square
+    Attributes:
+    attr1 (size): size of square
+    """
 
         def __init__(self, size):
-    """size: size for __size attribute of class instance"""
+            """
+        Args:
+        size: size for __size attribute of class instance
+        """
             self.__size = size
