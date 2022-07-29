@@ -6,7 +6,6 @@
 def add_attribute(obj, name, value):
     """Returns Nothing"""
 
-    if str(type(obj)).find("__main__") != -1:
-        setattr(obj, name, value)
-    else:
+    if not hasattr(object, "__dict__"):
         raise TypeError("can't add new attribute")
+    setattr(object, attribute, value)
