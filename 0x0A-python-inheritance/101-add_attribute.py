@@ -1,7 +1,6 @@
 #!/usr/bin/python3
 
-"""This module contains 
-the add_atribute function"""
+"""Adds an attribute"""
 
 
 def add_attribute(object, attribute, value):
