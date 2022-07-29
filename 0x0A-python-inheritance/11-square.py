@@ -1,25 +1,23 @@
 #!/usr/bin/python3
+"""A class named square"""
 
-"""This module contains the Rectangle class"""
-
-
+BaseGeometry = __import__('7-base_geometry').BaseGeometry
 Rectangle = __import__('9-rectangle').Rectangle
 
 
 class Square(Rectangle):
-    
-    """A simple Square class"""
-    
+    """This class inherites from Rectangle"""
+
     def __init__(self, size):
-        
-        """Returns an instance"""
-        
+
         self.integer_validator("size", size)
-        self.__size = size
         super().__init__(size, size)
+        self.__size = size
 
     def __str__(self):
-    
-        """Returns informal string representation"""
-        
-        return "[Square] {}/{}".format(self.__size, self.__size)
+
+        return str("[Square] {}/{}".format(self.__size, self.__size))
+
+    def area(self):
+
+        return self.__size ** 2
