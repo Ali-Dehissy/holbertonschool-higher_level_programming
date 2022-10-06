@@ -72,3 +72,13 @@ class Rectangle(Base):
         """Returns area of rectangle"""
         return (self.__width * self.__height)
 
+   def display(self):
+        """Instance of the rectangle"""
+        for y_coor in range(0, self.y):
+            print()
+        for row in range(self.height):
+            for x_coor in range(self.x):
+                print(' ', end='')
+            for col in range(self.width):
+                print('#', end='')
+            print()
