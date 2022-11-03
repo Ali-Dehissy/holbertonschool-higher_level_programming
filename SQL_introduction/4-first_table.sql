@@ -1,4 +1,3 @@
--- Table
 -- Creating a table
 CREATE TABLE IF NOT EXISTS first_table
 (
