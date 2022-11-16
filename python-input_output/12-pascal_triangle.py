@@ -2,7 +2,8 @@
 """Pascal"""
 
 def pascal_triangle(n):
-"""Returning a list of integers representing the triangle"""
+    """Returning a list of integers
+representing the triangle"""
     var = []
     if n <= 0:
         return var
