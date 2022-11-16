@@ -19,4 +19,4 @@ class Student:
                     dictionary[i] = self.__dict__[i]
             return dictionary
         else:
-            return self.
+            return self.__dict__
