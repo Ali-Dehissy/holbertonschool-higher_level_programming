@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-"""Adding item"""
+""" This module adds a file """
 
 import sys
 
