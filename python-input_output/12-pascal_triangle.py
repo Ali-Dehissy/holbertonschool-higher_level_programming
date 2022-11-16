@@ -1,5 +1,8 @@
 #!/usr/bin/python3
+"""Pascal"""
+
 def pascal_triangle(n):
+    """Returning a list of integers representing the triangle"""
     if n <= 0:
         return []
     pascal = []
