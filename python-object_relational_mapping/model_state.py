@@ -1,4 +1,4 @@
-²#!/usr/bin/python3
+#!/usr/bin/python3
 """Linking class to table"""
 
 import sys
