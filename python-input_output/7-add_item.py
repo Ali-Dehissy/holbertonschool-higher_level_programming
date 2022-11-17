@@ -1,7 +1,6 @@
 #!/usr/bin/python3
 """Adding item module"""
 
-
 import sys
 
 if __name__ == "__main__":
